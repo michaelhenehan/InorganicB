@@ -6,7 +6,7 @@ For those of you without priveleged access to the Elsevier Deathstar: http://www
 This code isn't the most polished, nor is it the most efficient! It relied on a lot of snippets of code shamelessly pinched (and corrupted?) from Oscar Branson, who I believe now has a much more efficient code for calling Pitzer in PHREEQC on his github. Beware that because of the way I've structured the code I think it calls and loads a separate PHREEQC instance for each Monte Carlo replicate, that ends up eating up RAM like DM vegan snackwursts. Hence my workaround (not having the time to dig in and write better code) was to export the first 1000 replicates to a csv file, then clearing the kernel and doing the next 1000, then loading both files and doing the plotting etc. It ain't pretty, but it got something done. 
 
 Hopefully you should be able to run this in mybinder.org: 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/michaelhenehan/InorganicB/HEAD?labpath=https%3A%2F%2Fgithub.com%2Fmichaelhenehan%2FInorganicB%2FInorganicBoronData.ipynb) 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/michaelhenehan/InorganicB/main?urlpath=https%3A%2F%2Fgithub.com%2Fmichaelhenehan%2FInorganicB%2Fblob%2Fmain%2FInorganicBoronData.ipynb)
 
 Please feel free to contact me if you see any mistakes or have any constructive suggestions for making less crap code. 
 
